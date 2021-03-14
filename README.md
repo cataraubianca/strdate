@@ -33,7 +33,7 @@ void CountingSort(int v[], int n) {
     for (int i = 1; i < n; i++)
     {   if (v[i] > max)
         max = v[i];
-    }
+    } 
     int fr[10];
     for (int i = 0; i <= max; ++i)
         fr[i] = 0;
