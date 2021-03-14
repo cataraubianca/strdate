@@ -27,7 +27,8 @@ void BubbleSort(int v[], int n)
             if(v[j]>v[j+1])
             swap(&v[j+1],&v[j]);
 }
-void CountingSort(int v[], int n) {
+void CountingSort(int v[], int n) 
+{
     int max = v[0];
 
     for (int i = 1; i < n; i++)
@@ -125,7 +126,8 @@ int getMax(int v[], int n)
   return max;
 }
 
-void sortare(int v[], int n, int poz) {
+void sortare(int v[], int n, int poz)
+{
     int max = v[0];
 
     for (int i = 1; i < n; i++)
